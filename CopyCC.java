@@ -8,15 +8,15 @@ public class CopyCC
 		 emp_id=id;
 		salary=sal;
 		name=n;
-		System.out.print("The name is: "+name+" Id is :"+id+" Tje salary is: "+salary);
+		System.out.print("The name is: "+name+" Id is :"+id+" The salary is: "+salary);
 	}
 
 	CopyCC(CopyCC obj)
 	{
-		 id=obj.id;
+		id=obj.id;
 		salary=obj.sal;
 		name=obj.n;
-		System.out.print("The name is: "+name+" Id is :"+id+" Tje salary is: "+salary);
+		System.out.print("The name is: "+name+" Id is :"+id+" The salary is: "+salary);
 	}
 
 	public static void main(String[] args)
